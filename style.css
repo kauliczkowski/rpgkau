@@ -1,1 +1,29 @@
+body{
+    background-color:rgb(237, 120, 248);
+    color:aliceblue;
 font-family: "Lexend Deca", sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 700px;
+margin: 0;
+}
+
+button {
+    background-color: rgba(178, 153, 224, 0.664);
+    color:azure;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-aling: center;
+    max-width: 90%;
+}
